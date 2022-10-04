@@ -4,15 +4,17 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-    int x;
+    int sum=0;
+	int x;
+	int i;
 	
-	printf("정수 하나를 입력하시오 : ");
-	scanf("%d", &x); 
+	printf("정수를 입력하시오 :");
+	scanf("%d", &x);
 	
-	if (x<0)
-		x=-1*x;
+	for (i=0;i<=x;i++)
+		sum=sum+i;
 	
-	printf("절댓값은 %i입니다.\n", x);
+	printf("더하기 결과는 %i입니다.\n", sum);
 	
 		
 	
