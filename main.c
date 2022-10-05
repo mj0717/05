@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
 	int answer=59;
 	int x;
 	int trial;
-	;
+	
 	do
 	{
 		printf("Guess a number :");//입력해라 문구 출력
